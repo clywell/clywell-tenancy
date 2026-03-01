@@ -90,7 +90,7 @@ jobs:
           echo "✓ Package created: $PACKAGE_FILE"
 
       - name: Upload package artifact
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: nuget-package
           path: ${{ steps.package.outputs.path }}
