@@ -107,7 +107,7 @@ jobs:
 
     steps:
       - name: Download package
-        uses: actions/download-artifact@v7
+        uses: actions/download-artifact@v8
         with:
           name: nuget-package
 
@@ -141,7 +141,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Download package
-        uses: actions/download-artifact@v7
+        uses: actions/download-artifact@v8
         with:
           name: nuget-package
 
