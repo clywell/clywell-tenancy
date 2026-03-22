@@ -29,3 +29,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 #### Log Enrichment
 - `TenantLogEnricher` — Serilog `ILogEventEnricher` that appends `TenantId` and `TenantName` (when resolved) to every log event in scope
 - `UserLogEnricher` — Serilog `ILogEventEnricher` that appends `UserId` from the `sub` claim, falling back to `NameIdentifier`
+
+[Unreleased]: https://github.com/clywell/clywell-tenancy/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/clywell/clywell-tenancy/releases/tag/v1.0.0
