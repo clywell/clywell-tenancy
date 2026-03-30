@@ -5,7 +5,7 @@
 
     <ItemGroup>
         <!-- Core dependencies -->
-        <PackageVersion Include="Clywell.Primitives" Version="1.1.0" />
+        <PackageVersion Include="Clywell.Primitives" Version="1.2.0" />
 
         <!-- ASP.NET Core -->
         <PackageVersion Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.0" />
