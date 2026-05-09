@@ -146,7 +146,7 @@ jobs:
           name: nuget-package
 
       - name: Create GitHub Release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           tag_name: v${{ needs.validate-build.outputs.version }}
           name: Release v${{ needs.validate-build.outputs.version }}
